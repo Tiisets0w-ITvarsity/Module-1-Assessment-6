@@ -1,0 +1,128 @@
+.main_pic {
+     display: flex;
+     align-items: center; /* Vertically center the content */
+}
+
+
+.gallery img{
+    
+    width: 100%;
+}
+
+.main_pic img{
+    width:50%;
+    height: auto;
+    margin-right: 20px;
+}
+img{
+    border-radius: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 50px;
+}
+.main_pic p {
+    flex: 1; 
+   
+}
+
+p{
+    background-color: gainsboro;
+    
+}
+
+
+.catalogue{
+    padding-left: 100px;
+    
+    
+}
+
+a{
+    padding-left: 50px;
+}
+
+section{
+    padding-left: 150px;
+    border-radius: 100px;
+}
+
+#section1{
+    
+    padding-left: 1000px;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color:cadetblue;
+    
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+#menu a{
+    
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#menu a:hover{
+    color:#5077bd;
+}
+
+html{
+    background-color: darkgrey;
+}
+
+button{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #27ae60;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #27ae60;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover{
+   background-color: #2980b9;
+   border-color: #2980b9;
+}
+
+h1{
+    background-color: cadetblue;
+    color: white;
+}
+
+h2{
+    background-color: cadetblue;
+    color: white;
+    margin-top: 15px;
+}
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    /* Apply alternating background colors to table columns */
+    td:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
